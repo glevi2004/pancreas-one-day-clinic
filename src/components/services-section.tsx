@@ -51,7 +51,7 @@ export function ServicesSection() {
   return (
     <section
       id="services"
-      className="relative z-10 py-20 px-6 lg:px-8 bg-white/10 dark:bg-gray-900/20 backdrop-blur-sm"
+      className="relative z-10 py-20 px-6 lg:px-8 bg-white/10 backdrop-blur-sm"
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">

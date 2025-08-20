@@ -17,8 +17,8 @@ export function FeaturesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Same Day Care */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-8 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
-            <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
-              <Clock className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+            <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center mb-6">
+              <Clock className="w-6 h-6 text-blue-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
               Same Day Care
@@ -45,8 +45,8 @@ export function FeaturesSection() {
 
           {/* Expert Specialists */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-8 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
-            <div className="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-6">
-              <Shield className="w-6 h-6 text-green-600 dark:text-green-400" />
+            <div className="w-12 h-12 bg-green-900 rounded-lg flex items-center justify-center mb-6">
+              <Shield className="w-6 h-6 text-green-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
               Expert Specialists
@@ -73,8 +73,8 @@ export function FeaturesSection() {
 
           {/* Patient-Centered */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-8 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
-            <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-6">
-              <Users className="w-6 h-6 text-purple-600 dark:text-purple-400" />
+            <div className="w-12 h-12 bg-purple-900 rounded-lg flex items-center justify-center mb-6">
+              <Users className="w-6 h-6 text-purple-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
               Patient-Centered Care

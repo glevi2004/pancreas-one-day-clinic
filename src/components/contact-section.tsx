@@ -9,8 +9,8 @@ export function ContactSection() {
           Ready to Get Started?
         </h2>
         <p className="text-xl text-white/80 mb-8">
-          Contact us today to schedule your consultation and take the first
-          step towards better health.
+          Contact us today to schedule your consultation and take the first step
+          towards better health.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
@@ -23,7 +23,7 @@ export function ContactSection() {
           <Button
             variant="outline"
             size="lg"
-            className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg"
+            className="border-blue-900 text-blue-900 bg-white/90 hover:bg-white px-8 py-3 text-lg"
           >
             <MapPin className="w-5 h-5 mr-2" />
             Get Directions
