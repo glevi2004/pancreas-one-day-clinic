@@ -14,11 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <html lang="en">
+      <html lang="en" className="bg-blue-950">
         <head />
-        <body>
-          {children}
-        </body>
+        <body>{children}</body>
       </html>
     </>
   );
