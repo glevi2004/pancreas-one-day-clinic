@@ -21,8 +21,8 @@ export function Navbar() {
               className="w-12 h-12"
             />
           </div>
-          <span className="text-xl font-semibold text-white">
-            Pancreas Clinic
+          <span className="text-xl font-bold text-white">
+            Pâncreas One Day Clinic
           </span>
         </div>
 
@@ -33,19 +33,25 @@ export function Navbar() {
               href="#services"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
-              Services
+              Serviços
+            </a>
+            <a
+              href="/blog"
+              className="text-white hover:text-white/80 transition-colors text-sm"
+            >
+              Blog
             </a>
             <a
               href="#about"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
-              About
+              Sobre
             </a>
             <a
               href="#contact"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
-              Contact
+              Contato
             </a>
           </nav>
         </div>
@@ -57,11 +63,11 @@ export function Navbar() {
             className="text-white hover:!bg-white/10 hover:!text-white/90 px-4 py-2 transition-all duration-200"
           >
             <Phone className="w-4 h-4 mr-2" />
-            Call Now
+            Ligar Agora
           </Button>
           <Button className="bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-full px-6 py-2 transition-all">
             <Calendar className="w-4 h-4 mr-2" />
-            Book Appointment
+            Agendar Consulta
           </Button>
         </div>
 
@@ -91,21 +97,28 @@ export function Navbar() {
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Services
+              Serviços
+            </a>
+            <a
+              href="/blog"
+              className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
             </a>
             <a
               href="#about"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              Sobre
             </a>
             <a
               href="#contact"
               className="text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2 block"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Contato
             </a>
           </nav>
           <div className="pt-3 border-t border-white/20 space-y-2">
@@ -114,11 +127,11 @@ export function Navbar() {
               className="mb-2 w-full text-white hover:!bg-white/10 hover:!text-white/90 justify-start"
             >
               <Phone className="w-4 h-4 mr-2" />
-              Call Now
+              Ligar Agora
             </Button>
             <Button className="w-full bg-white/20 hover:bg-white/30 text-white border border-white/30 justify-start">
               <Calendar className="w-4 h-4 mr-2" />
-              Book Appointment
+              Agendar Consulta
             </Button>
           </div>
         </div>

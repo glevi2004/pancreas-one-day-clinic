@@ -6,11 +6,11 @@ export function ContactSection() {
     <section id="contact" className="relative z-10 py-20 px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-          Ready to Get Started?
+          Pronto para começar?
         </h2>
         <p className="text-xl text-white/80 mb-8">
-          Contact us today to schedule your consultation and take the first step
-          towards better health.
+          Entre em contato hoje para agendar sua consulta e dar o primeiro passo
+          em direção à melhor saúde.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
@@ -18,7 +18,7 @@ export function ContactSection() {
             className="bg-white text-blue-900 hover:bg-white/90 px-8 py-3 text-lg"
           >
             <Phone className="w-5 h-5 mr-2" />
-            Call (555) 123-4567
+            Ligar (41) 3020-0000
           </Button>
           <Button
             variant="outline"
@@ -26,7 +26,7 @@ export function ContactSection() {
             className="border-blue-900 text-blue-900 bg-white/90 hover:bg-white px-8 py-3 text-lg"
           >
             <MapPin className="w-5 h-5 mr-2" />
-            Get Directions
+            Como Chegar
           </Button>
         </div>
       </div>

@@ -6,11 +6,11 @@ export function FeaturesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">
-            Why Choose Pancreas One Day Clinic?
+            Por que escolher o Pâncreas One Day Clinic?
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Experience world-class pancreatic care with our comprehensive
-            approach to diagnosis and treatment
+            Diagnóstico e tratamento multidisciplinar com equipe de excelência e
+            tecnologia de ponta
           </p>
         </div>
 
@@ -21,24 +21,25 @@ export function FeaturesSection() {
               <Clock className="w-6 h-6 text-blue-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Same Day Care
+              Diagnóstico em até 72h
             </h3>
             <p className="text-white/80 mb-4">
-              Complete diagnosis and treatment in a single visit, minimizing
-              disruption to your daily life and providing immediate results.
+              Diagnóstico completo e plano de tratamento personalizado em até 72
+              horas, oferecendo agilidade sem comprometer a qualidade do
+              atendimento.
             </p>
             <ul className="space-y-2 text-sm text-white/70">
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                One-day diagnosis
+                Diagnóstico rápido
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Immediate treatment options
+                Plano de tratamento personalizado
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Minimal time away from work
+                Atendimento ágil
               </li>
             </ul>
           </div>
@@ -49,24 +50,24 @@ export function FeaturesSection() {
               <Shield className="w-6 h-6 text-green-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Expert Specialists
+              Equipe Multidisciplinar
             </h3>
             <p className="text-white/80 mb-4">
-              Board-certified pancreatic specialists with years of experience
-              in treating complex conditions and rare diseases.
+              Profissionais de renome local, nacional e internacional com maior
+              volume do Paraná em cirurgias pancreáticas e hepáticas.
             </p>
             <ul className="space-y-2 text-sm text-white/70">
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Board-certified physicians
+                Cirurgia Hepatobiliopancreática
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Specialized training
+                Gastroenterologia especializada
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Advanced treatment protocols
+                Radiologia e Oncologia integradas
               </li>
             </ul>
           </div>
@@ -77,24 +78,24 @@ export function FeaturesSection() {
               <Users className="w-6 h-6 text-purple-400" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Patient-Centered Care
+              Atendimento Humanizado
             </h3>
             <p className="text-white/80 mb-4">
-              Personalized care plans tailored to your specific needs, medical
-              history, and lifestyle considerations.
+              Atendimento completo e humanizado, com foco na conveniência e
+              cuidado integral do paciente.
             </p>
             <ul className="space-y-2 text-sm text-white/70">
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Individualized treatment plans
+                Atendimento sem burocracia
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Family involvement
+                Protocolos padronizados
               </li>
               <li className="flex items-center">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                Ongoing support
+                Tecnologia de ponta
               </li>
             </ul>
           </div>

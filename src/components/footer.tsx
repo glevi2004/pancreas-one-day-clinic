@@ -9,14 +9,15 @@ export function Footer() {
             <Heart className="w-4 h-4 text-blue-600" />
           </div>
           <span className="text-lg font-semibold text-white">
-            Pancreas One Day Clinic
+            PÂNCREAS ONE DAY CLINIC
           </span>
         </div>
         <p className="text-white/60 mb-4">
-          Providing exceptional pancreatic care with compassion and expertise.
+          Fornecendo atendimento excepcional em doenças pancreáticas com
+          compaixão e expertise.
         </p>
         <div className="text-white/40 text-sm">
-          © 2024 Pancreas One Day Clinic. All rights reserved.
+          © 2024 PÂNCREAS ONE DAY CLINIC. Todos os direitos reservados.
         </div>
       </div>
     </footer>

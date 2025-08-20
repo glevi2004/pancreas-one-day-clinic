@@ -3,47 +3,43 @@ import { CheckCircle } from "lucide-react";
 export function ServicesSection() {
   const services = [
     {
-      title: "Diagnostic Imaging",
+      title: "Imagem Diagnóstica",
       description:
-        "Advanced CT, MRI, and ultrasound imaging for accurate diagnosis",
+        "Exames de imagem de alta complexidade (TC, RM, ecoendoscopia)",
       icon: "🔍",
-      features: [
-        "High-resolution scans",
-        "3D imaging",
-        "Real-time results",
-      ],
+      features: ["Exames de alta resolução", "Imagem 3D", "Resultados rápidos"],
     },
     {
-      title: "Endoscopic Procedures",
+      title: "Procedimentos Endoscópicos",
       description:
-        "Minimally invasive procedures for diagnosis and treatment",
+        "Maior experiência do Paraná em CPRE e drenagens endoscópicas",
       icon: "🏥",
       features: [
-        "Minimal scarring",
-        "Quick recovery",
-        "Outpatient care",
+        "Procedimentos minimamente invasivos",
+        "Recuperação rápida",
+        "Atendimento ambulatorial",
       ],
     },
     {
-      title: "Surgical Consultation",
+      title: "Cirurgia Hepatobiliopancreática",
       description:
-        "Expert surgical evaluation and treatment planning",
+        "Maior volume do Paraná em cirurgias pancreáticas e hepáticas",
       icon: "⚕️",
       features: [
-        "Expert evaluation",
-        "Treatment planning",
-        "Risk assessment",
+        "Cirurgia robótica",
+        "Mais de 1.000 ressecções",
+        "Baixas taxas de complicação",
       ],
     },
     {
-      title: "Follow-up Care",
+      title: "Oncologia Integrada",
       description:
-        "Comprehensive post-treatment monitoring and support",
+        "Integração para quimioterapia e suporte completo ao paciente",
       icon: "📋",
       features: [
-        "Regular monitoring",
-        "Support groups",
-        "Lifestyle guidance",
+        "Acompanhamento oncológico",
+        "Equipe multidisciplinar",
+        "Suporte completo",
       ],
     },
   ];
@@ -56,11 +52,11 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Our Services
+            Nossos Serviços
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Comprehensive pancreatic care services designed to provide you
-            with the best possible outcomes.
+            Serviços especializados em doenças pancreáticas com tecnologia de
+            ponta e equipe multidisciplinar.
           </p>
         </div>
 
