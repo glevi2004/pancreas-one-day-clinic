@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,10 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 w-full">
       <div className="bg-white/10 backdrop-blur-md border-b border-white/20 px-6 py-3 flex items-center justify-between w-full">
-        <div className="flex items-center space-x-3">
+        <Link
+          href="/"
+          className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+        >
           <div className="w-12 h-12 flex items-center justify-center">
             <Image
               src="/logo.png"
@@ -24,7 +28,7 @@ export function Navbar() {
           <span className="text-xl font-bold text-white">
             Pâncreas One Day Clinic
           </span>
-        </div>
+        </Link>
 
         {/* Desktop Navigation - Centered */}
         <div className="hidden lg:flex items-center justify-center flex-1 ml-12">
