@@ -186,7 +186,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           </header>
 
           {/* Content */}
-          <Card className="bg-white/10 backdrop-blur-md border border-white/20">
+          <Card className="bg-white/10 border border-white/20">
             <CardContent className="p-8">
               <div
                 className="prose prose-invert max-w-none"

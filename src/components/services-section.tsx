@@ -64,7 +64,7 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-white/10 border border-white/20 rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
             >
               <div className="text-center">
                 <div className="text-4xl mb-4">{service.icon}</div>

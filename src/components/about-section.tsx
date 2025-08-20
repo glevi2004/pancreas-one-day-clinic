@@ -21,7 +21,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Team Image */}
           <div className="relative">
-            <Card className="bg-white/10 backdrop-blur-md border border-white/20 overflow-hidden">
+            <Card className="bg-white/10 border border-white/20 overflow-hidden">
               <CardContent className="p-0">
                 <Image
                   src="/team.jpeg"
@@ -56,7 +56,7 @@ export function AboutSection() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-4">
+              <div className="bg-white/10 border border-white/20 rounded-lg p-4">
                 <div className="flex items-center mb-2">
                   <Target className="w-5 h-5 text-blue-400 mr-2" />
                   <h4 className="font-semibold text-white">Nossa Missão</h4>
@@ -67,7 +67,7 @@ export function AboutSection() {
                 </p>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-4">
+              <div className="bg-white/10 border border-white/20 rounded-lg p-4">
                 <div className="flex items-center mb-2">
                   <Award className="w-5 h-5 text-green-400 mr-2" />
                   <h4 className="font-semibold text-white">
@@ -86,7 +86,7 @@ export function AboutSection() {
         {/* Stats Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="text-center">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
               <div className="text-white font-medium mb-2">Ressecções</div>
               <div className="text-sm text-white/60">
@@ -96,7 +96,7 @@ export function AboutSection() {
           </div>
 
           <div className="text-center">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <div className="text-3xl font-bold text-green-400 mb-2">360</div>
               <div className="text-white font-medium mb-2">Ecoendoscopias</div>
               <div className="text-sm text-white/60">Realizadas em 2024</div>
@@ -104,7 +104,7 @@ export function AboutSection() {
           </div>
 
           <div className="text-center">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <div className="text-3xl font-bold text-purple-400 mb-2">230</div>
               <div className="text-white font-medium mb-2">CPREs</div>
               <div className="text-sm text-white/60">Procedimentos em 2024</div>
@@ -118,7 +118,7 @@ export function AboutSection() {
             Nossa Equipe Multidisciplinar
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <Users className="w-8 h-8 text-blue-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">
                 Cirurgia Hepatobiliopancreática
@@ -129,7 +129,7 @@ export function AboutSection() {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <Users className="w-8 h-8 text-green-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">
                 Gastroenterologia
@@ -140,7 +140,7 @@ export function AboutSection() {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <Users className="w-8 h-8 text-purple-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">
                 Radiologia Intervencionista
@@ -151,7 +151,7 @@ export function AboutSection() {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6">
+            <div className="bg-white/10 border border-white/20 rounded-lg p-6">
               <Users className="w-8 h-8 text-orange-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">
                 Oncologia Integrada
@@ -166,7 +166,7 @@ export function AboutSection() {
 
         {/* CTA Section */}
         <div className="text-center mt-16">
-          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-8">
+          <div className="bg-white/10 border border-white/20 rounded-lg p-8">
             <h3 className="text-2xl font-bold text-white mb-4">
               Pronto para agendar sua consulta?
             </h3>

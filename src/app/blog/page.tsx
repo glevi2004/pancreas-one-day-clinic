@@ -94,7 +94,7 @@ export default function BlogPage() {
           {blogPosts.map((post) => (
             <Card
               key={post.id}
-              className="bg-white/10 backdrop-blur-md border border-white/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-white/10 border border-white/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
