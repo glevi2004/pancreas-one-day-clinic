@@ -39,12 +39,12 @@ export function Navbar() {
             >
               Serviços
             </a>
-            <a
+            <Link
               href="/blog"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
               Blog
-            </a>
+            </Link>
             <a
               href="#about"
               className="text-white hover:text-white/80 transition-colors text-sm"
@@ -103,13 +103,13 @@ export function Navbar() {
             >
               Serviços
             </a>
-            <a
+            <Link
               href="/blog"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Blog
-            </a>
+            </Link>
             <a
               href="#about"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
