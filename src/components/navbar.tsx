@@ -33,30 +33,30 @@ export function Navbar() {
         {/* Desktop Navigation - Centered */}
         <div className="hidden lg:flex items-center justify-center flex-1 ml-12">
           <nav className="flex space-x-6">
-            <a
-              href="#services"
+            <Link
+              href="/#services"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
               Serviços
-            </a>
+            </Link>
             <Link
               href="/blog"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
               Blog
             </Link>
-            <a
-              href="#about"
+            <Link
+              href="/#about"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
               Sobre
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              href="/#contact"
               className="text-white hover:text-white/80 transition-colors text-sm"
             >
               Contato
-            </a>
+            </Link>
           </nav>
         </div>
 
@@ -96,13 +96,13 @@ export function Navbar() {
       {isMenuOpen && (
         <div className="lg:hidden bg-white/10 backdrop-blur-lg border-b border-white/20 px-6 py-4 space-y-3">
           <nav className="space-y-3">
-            <a
-              href="#services"
+            <Link
+              href="/#services"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Serviços
-            </a>
+            </Link>
             <Link
               href="/blog"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
@@ -110,20 +110,20 @@ export function Navbar() {
             >
               Blog
             </Link>
-            <a
-              href="#about"
+            <Link
+              href="/#about"
               className="block text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              href="/#contact"
               className="text-white hover:!bg-white/10 hover:!text-white/90 rounded-md px-4 transition-colors font-medium py-2 block"
               onClick={() => setIsMenuOpen(false)}
             >
               Contato
-            </a>
+            </Link>
           </nav>
           <div className="pt-3 border-t border-white/20 space-y-2">
             <Button
