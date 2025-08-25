@@ -6,7 +6,7 @@ export function ContactSection() {
     <section id="contact" className="relative z-10 py-20 px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-          Pronto para começar?
+          Entre em contato
         </h2>
         <p className="text-xl text-white/80 mb-8">
           Entre em contato hoje para agendar sua consulta e dar o primeiro passo
