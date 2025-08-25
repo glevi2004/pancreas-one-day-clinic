@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Calendar, Phone } from "lucide-react";
+import { Calendar, Info } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -48,8 +48,8 @@ export function HeroSection() {
             size="lg"
             className="border-blue-900 text-blue-900 bg-white/90 hover:bg-white px-8 py-3 text-lg"
           >
-            <Phone className="w-5 h-5 mr-2" />
-            Ligar Agora
+            <Info className="w-5 h-5 mr-2" />
+            Informações ao paciente
           </Button>
         </div>
       </div>
