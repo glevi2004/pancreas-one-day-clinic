@@ -97,17 +97,23 @@ export function AboutSection() {
 
           <div className="text-center">
             <div className="bg-white/10 border border-white/20 rounded-lg p-6">
-              <div className="text-3xl font-bold text-green-400 mb-2">360</div>
-              <div className="text-white font-medium mb-2">Ecoendoscopias</div>
-              <div className="text-sm text-white/60">Realizadas em 2024</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">
+                1000+
+              </div>
+              <div className="text-white font-medium mb-2">Cirurgias</div>
+              <div className="text-sm text-white/60">Fígado e pâncreas</div>
             </div>
           </div>
 
           <div className="text-center">
             <div className="bg-white/10 border border-white/20 rounded-lg p-6">
-              <div className="text-3xl font-bold text-purple-400 mb-2">230</div>
-              <div className="text-white font-medium mb-2">CPREs</div>
-              <div className="text-sm text-white/60">Procedimentos em 2024</div>
+              <div className="text-3xl font-bold text-purple-400 mb-2">
+                100+
+              </div>
+              <div className="text-white font-medium mb-2">
+                Cirurgias Robóticas
+              </div>
+              <div className="text-sm text-white/60">Fígado e pâncreas</div>
             </div>
           </div>
         </div>
